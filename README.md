@@ -2,23 +2,23 @@
 Using Flask to build web
 
 資料夾結構：
-1. 沒有使用Package（Teacher's case)
-   /FlaskDemo
-      /templates (html或其他種類的頁面檔案，此為render_template預設尋找檔案的路徑)
-        index.html
-      /static (可以把CSS, Javascript放在這個資料夾)
-      /env (虛擬環境)
-      Hello_Flask.py
+1. 沒有使用Package（Teacher's case)  
+   /FlaskDemo  
+      /templates (html或其他種類的頁面檔案，此為render_template預設尋找檔案的路徑)  
+        index.html  
+      /static (可以把CSS, Javascript放在這個資料夾)  
+      /env (虛擬環境)  
+      Hello_Flask.py  
       
-2. 有使用Package
-  /FlaskDemo
-      /Package
-          /__init__.py  （這個檔案一定要有，應是Python用來識別此區塊內的檔案都屬於此Package，裡面的程式碼空白沒關係）
-          /templates (html或其他種類的頁面檔案，此為render_template預設尋找檔案的路徑)
-              /index.html
-          /static (可以把CSS, Javascript放在這個資料夾)
-          /Hello_Flask.py
-      /env (虛擬環境)
+2. 有使用Package  
+  /FlaskDemo  
+      /Package  
+          /__init__.py  （這個檔案一定要有，應是Python用來識別此區塊內的檔案都屬於此Package，裡面的程式碼空白沒關係）  
+          /templates (html或其他種類的頁面檔案，此為render_template預設尋找檔案的路徑)  
+              /index.html  
+          /static (可以把CSS, Javascript放在這個資料夾)  
+          /Hello_Flask.py  
+      /env (虛擬環境)  
       
 P.S.此範例資料夾結構為第一種
 

@@ -1,7 +1,7 @@
 # FlaskDemo
 Using Flask to build web
 
-# 資料夾結構：
+## 資料夾結構：
 ### \*<span style="color:blue;">必須要有正確的結構，Flask才能抓取到頁面檔案</span>\*
 ## 1. 沒有使用Package（Teacher's case)  
     /FlaskDemo
@@ -39,3 +39,10 @@ P.S.此範例資料夾結構為第一種
 
 > 3. 驗證執行結果，於瀏覽器輸入 http://127.0.0.1:8080/hello (此範例為此路徑，個人可自行設定，詳情見Hello_Flask.py)
 ![替代文字](https://github.com/tsunglinken/FlaskDemo/blob/master/doc/hello.png "選擇文字")
+
+## Flask與Leveldb搭配使用：
+> 1. Leveldb 只能一次一個process使用，被使用的狀態下是被鎖定的，所以當使用flask app.run時，就會造成db lock問題
+
+> 2. 只要能夠避免不要同時間有多個process同時執行即可避免此問題(不確定這樣解釋好不好)
+
+> 3. 具體解決方式： 將資料庫的操作和啟動Flask的行為分開，不同時進行即可。

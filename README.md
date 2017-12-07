@@ -37,3 +37,4 @@ P.S.此範例資料夾結構為第一種
             Debugger PIN: 280-562-887
 
 > 3. 驗證執行結果，於瀏覽器輸入 http://127.0.0.1:8080/hello (此範例為此路徑，個人可自行設定，詳情見Hello_Flask.py)
+![替代文字](https://github.com/tsunglinken/FlaskDemo/blob/master/doc/hello.png "選擇文字")

@@ -1,7 +1,8 @@
 # FlaskDemo
 Using Flask to build web
 
-資料夾結構：
+# 資料夾結構：
+### \*<span style="color:blue;">必須要有正確的結構，Flask才能抓取到頁面檔案</span>\*
 ## 1. 沒有使用Package（Teacher's case)  
     /FlaskDemo
         /templates (html或其他種類的頁面檔案，此為render_template預設尋找檔案的路徑)
